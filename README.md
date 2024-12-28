@@ -58,7 +58,7 @@ The project follows these main steps:
 3. **Exploratory Data Analysis (EDA)**:
    - Conducted univariate analysis on key attributes, including company_age, reviews, rating, salaries, interviews, jobs, and benefits, to understand their distributions 
      and identify patterns or anomalies in the dataset.
-      ![EDA Visualization](images\EDA-Univariate Analysis- Cluster Analysis.png "Exploratory Data Analysis")
+      ![EDA Visualization](images/EDA-Univariate Analysis- Cluster Analysis.png "Exploratory Data Analysis")
   
 
 5. **Data Encoding**:
