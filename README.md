@@ -106,7 +106,7 @@ Open and execute the Jupyter Notebook 'Cluster Analysis on Indian Companies.ipyn
 
 ## Results 
 
-### Results of EDA:
+### Results of EDA- Univariate Analysis:
 
 <p align="center">
   <img src="images/EDA-Univariate-Analysis-Cluster-Analysis.png" alt="Exploratory Data Analysis" title="Exploratory Data Analysis" />
@@ -116,7 +116,22 @@ Open and execute the Jupyter Notebook 'Cluster Analysis on Indian Companies.ipyn
   <b>Univariate Analysis</b>
 </p>
 
-- ![EDA Visualization](images/EDA-Bivariate-Analysis-Cluster-Analysis.png "Exploratory Data Analysis")
+- Attributes like `reviews` and `salaries` exhibit strong right-skewness, with most companies having low values and a few having exceptionally high counts. 
+- The `rating` attribute displays a more balanced distribution, centred around 4, with minimal skewness (-0.64).  
+- These skewed distributions indicate potential outliers and uneven data spread across companies.  
+
+### Results of EDA- Bivariate Analysis
+<p align="center">
+  <img src="images/EDA-Bivariate-Analysis-Cluster-Analysis.png" alt="Exploratory Data Analysis - Bivariate" title="Exploratory Data Analysis - Bivariate" />
+</p>
+
+<p align="center">
+  <b>Bivariate Analysis</b>
+</p>
+
+- **Ratings vs. Reviews:** Higher-rated companies generally tend to have fewer reviews, with most clustering around a rating of 4.  
+- **Salaries vs. Reviews:** A positive correlation is evident, where companies offering higher salaries attract more reviews.  
+- **Jobs vs. Reviews and Company Age vs. Reviews:** Companies with more job openings and older company ages exhibit varying review counts, though most companies have fewer reviews regardless of these factors.  
 
 
 ---------------------
