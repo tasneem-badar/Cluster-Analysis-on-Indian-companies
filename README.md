@@ -24,9 +24,8 @@ The results provide insights into market segmentation, aiding strategic decision
 
 ---------------------------
 ## Data Collection
-The data for this project was collected from AmbitionBox, a platform providing detailed insights into companies, including ratings, reviews, salaries, and job openings. Using Beautiful Soup, a Python library for web scraping, relevant company attributes were extracted from the website.
-
-The attributes gathered include company name, ratings, reviews, job openings, salaries, benefits, ownership status, company age, and more. This dataset formed the basis for clustering analysis, offering a comprehensive view of company characteristics to enable meaningful segmentation.
+T
+he data for this project was collected from [**AmbitionBox**](https://www.ambitionbox.com/), a platform offering detailed insights into companies, including ratings, reviews, salaries, and job openings. Using **Beautiful Soup**, a Python library for web scraping, key company attributes were extracted to form the dataset.
 
 ------------------------
 ## Features 
@@ -45,4 +44,34 @@ The attributes gathered include company name, ratings, reviews, job openings, sa
 12. Benefits: Number of entries discussing the company's benefits.
 
 --------------------
+
+## Methodology
+
+The project follows these main steps:
+
+1. **Web Scraping**:
+   - Data was collected by scraping car listing information from [AmbitionBox](https://www.ambitionbox.com/) using BeautifulSoup.
+
+2. **Data Preprocessing**:
+   - Cleaning the data and handling missing values.
+   - Preparing the dataset for analysis by scaling numerical features and selecting relevant features.
+
+3. **Exploratory Data Analysis (EDA)**:
+   - Analyzed the distribution of car prices to understand price patterns.
+   - Identified key features that significantly impact car prices.
+   - Visualized trends across different car models, brands, and locations.
+
+4. **Data Encoding**:
+   - Transformed data as needed, including encoding and scaling, to improve model performance.
+
+6. **Outlier Detection**:
+   - Identified outliers using the Interquartile Range (IQR) and box plot methods.
+
+7. **Outlier Treatment**:
+   - Applied trimming, quantile-based flooring & capping and log transformation to handle outliers and normalize the data distribution.
+  
+8. **Cluster Analysis**:
+   - Applied Cluster Analysis using:
+     - **K Means Clustering**
+     - **Agglomerative Clustering** 
 
