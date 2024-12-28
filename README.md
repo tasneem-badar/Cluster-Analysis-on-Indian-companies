@@ -24,8 +24,7 @@ The results provide insights into market segmentation, aiding strategic decision
 
 ---------------------------
 ## Data Collection
-T
-he data for this project was collected from [**AmbitionBox**](https://www.ambitionbox.com/), a platform offering detailed insights into companies, including ratings, reviews, salaries, and job openings. Using **Beautiful Soup**, a Python library for web scraping, key company attributes were extracted to form the dataset.
+The data for this project was collected from [**AmbitionBox**](https://www.ambitionbox.com/), a platform offering detailed insights into companies, including ratings, reviews, salaries, and job openings. Using **Beautiful Soup**, a Python library for web scraping, key company attributes were extracted to form the dataset.
 
 ------------------------
 ## Features 
@@ -73,5 +72,24 @@ The project follows these main steps:
 8. **Cluster Analysis**:
    - Applied Cluster Analysis using:
      - **K Means Clustering**
-     - **Agglomerative Clustering** 
+     - **Agglomerative Clustering**
+    
+## Requirements
+
+- Python 3.x
+Install all dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+## Installation 
+
+To set up the project on your local machine, follow these steps:
+
+**Clone the Repository**:
+
+```bash
+git clone https://github.com/tasneem-badar/Market-Trend-Analysis-and-Price-Prediction-on-Used-Cars.git
+cd cluster Analysis on India Comapnies
+```
 
