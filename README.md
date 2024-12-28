@@ -82,6 +82,8 @@ Install all dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
+-------------------------
+
 ## Installation 
 
 To set up the project on your local machine, follow these steps:
@@ -89,7 +91,18 @@ To set up the project on your local machine, follow these steps:
 **Clone the Repository**:
 
 ```bash
-git clone https://github.com/tasneem-badar/Market-Trend-Analysis-and-Price-Prediction-on-Used-Cars.git
+git clone https://github.com/tasneem-badar/Cluster-Analysis-on-Indian-companies.git
 cd cluster Analysis on India Comapnies
 ```
+---------------------------
+
+## Usage
+
+Open and execute the Jupyter Notebook 'Cluster Analysis on Indian Companies.ipynb' to explore clustering results and company segmentation. The notebook provides insights into company characteristics, feature distributions, and patterns across different clusters.
+
+------------------
+
+## Results 
+
+
 
