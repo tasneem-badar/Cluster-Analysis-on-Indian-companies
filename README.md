@@ -56,11 +56,12 @@ The project follows these main steps:
    - Preparing the dataset for analysis by scaling numerical features and selecting relevant features.
 
 3. **Exploratory Data Analysis (EDA)**:
-   - Analyzed the distribution of car prices to understand price patterns.
-   - Identified key features that significantly impact car prices.
-   - Visualized trends across different car models, brands, and locations.
+   - Conducted univariate analysis on key attributes, including company_age, reviews, rating, salaries, interviews, jobs, and benefits, to understand their distributions 
+     and identify patterns or anomalies in the dataset.
+      ![EDA Visualization](images/EDA-Univariate-Analysis- Cluster-Analysis.png "Exploratory Data Analysis")
+  
 
-4. **Data Encoding**:
+5. **Data Encoding**:
    - Transformed data as needed, including encoding and scaling, to improve model performance.
 
 6. **Outlier Detection**:
