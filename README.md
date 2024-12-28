@@ -73,7 +73,9 @@ The project follows these main steps:
    - Applied Cluster Analysis using:
      - **K Means Clustering**
      - **Agglomerative Clustering**
-    
+
+-----------------------------
+
 ## Requirements
 
 - Python 3.x
@@ -100,7 +102,7 @@ cd cluster Analysis on India Comapnies
 
 Open and execute the Jupyter Notebook 'Cluster Analysis on Indian Companies.ipynb' to explore clustering results and company segmentation. The notebook provides insights into company characteristics, feature distributions, and patterns across different clusters.
 
-------------------
+---------------------
 
 ## Results 
 
