@@ -108,7 +108,14 @@ Open and execute the Jupyter Notebook 'Cluster Analysis on Indian Companies.ipyn
 
 ### Results of EDA:
 
-- ![EDA Visualization](images/EDA-Univariate-Analysis-Cluster-Analysis.png "Exploratory Data Analysis")
+<p align="center">
+  <img src="images/EDA-Univariate-Analysis-Cluster-Analysis.png" alt="Exploratory Data Analysis" title="Exploratory Data Analysis" />
+</p>
+
+<p align="center">
+  <b>Univariate Analysis</b>
+</p>
+
 - ![EDA Visualization](images/EDA-Bivariate-Analysis-Cluster-Analysis.png "Exploratory Data Analysis")
 
 
