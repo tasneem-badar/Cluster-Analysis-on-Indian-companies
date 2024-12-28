@@ -58,21 +58,18 @@ The project follows these main steps:
 3. **Exploratory Data Analysis (EDA)**:
    - Conducted univariate analysis on key attributes, including company_age, reviews, rating, salaries, interviews, jobs, and benefits, to understand their 
      distributions and identify patterns or anomalies in the dataset.
-      ![EDA Visualization](images/EDA-Univariate-Analysis-Cluster-Analysis.png "Exploratory Data Analysis")
    - Performed bivariate analysis on numeric columns to explore relationships and correlations.
-      ![EDA Visualization](images/EDA-Bivariate-Analysis-Cluster-Analysis.png "Exploratory Data Analysis")
-  
 
-5. **Data Encoding**:
+4. **Data Encoding**:
    - Transformed data as needed, including encoding and scaling, to improve model performance.
 
-6. **Outlier Detection**:
+5. **Outlier Detection**:
    - Identified outliers using the Interquartile Range (IQR) and box plot methods.
 
-7. **Outlier Treatment**:
+6. **Outlier Treatment**:
    - Applied trimming, quantile-based flooring & capping and log transformation to handle outliers and normalize the data distribution.
   
-8. **Cluster Analysis**:
+7. **Cluster Analysis**:
    - Applied Cluster Analysis using:
      - **K Means Clustering**
      - **Agglomerative Clustering**
@@ -108,6 +105,12 @@ Open and execute the Jupyter Notebook 'Cluster Analysis on Indian Companies.ipyn
 ---------------------
 
 ## Results 
+
+### Results of EDA:
+
+- ![EDA Visualization](images/EDA-Univariate-Analysis-Cluster-Analysis.png "Exploratory Data Analysis")
+- ![EDA Visualization](images/EDA-Bivariate-Analysis-Cluster-Analysis.png "Exploratory Data Analysis")
+
 
 ---------------------
 ## Contributions
