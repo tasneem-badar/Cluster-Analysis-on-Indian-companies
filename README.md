@@ -13,7 +13,7 @@ Segmented Indian companies based on key attributes using PCA and clustering tech
 8. [Results](#results)
 9. [Contributions](#contributions)
 10. [License](#license)
-
+---------------------
 ## Project Overview
 This project segments Indian companies based on ratings, reviews, jobs, salaries, and company age. By applying PCA, the data was reduced to two principal components for easier visualization, and clustering techniques like K-Means and Agglomerative Clustering identified two groups of companies:
 
@@ -24,9 +24,11 @@ The results provide insights into market segmentation, aiding strategic decision
 
 ---------------------------
 ## Data Collection
+The data for this project was collected from AmbitionBox, a platform providing detailed insights into companies, including ratings, reviews, salaries, and job openings. Using Beautiful Soup, a Python library for web scraping, relevant company attributes were extracted from the website.
 
-The dataset for this project was gathered from AmbitionBox, a platform providing company reviews, ratings, and employee insights. The data was collected using web scraping techniques with Beautiful Soup, extracting information on key attributes such as ratings, reviews, jobs, salaries, and company age. This process ensured the dataset was rich in features relevant to clustering analysis.
+The attributes gathered include company name, ratings, reviews, job openings, salaries, benefits, ownership status, company age, and more. This dataset formed the basis for clustering analysis, offering a comprehensive view of company characteristics to enable meaningful segmentation.
 
+------------------------
 ## Features 
 
 1. Name: Name of the company.
@@ -41,4 +43,6 @@ The dataset for this project was gathered from AmbitionBox, a platform providing
 10. Interviews: The number of interviews conducted by the company.
 11. Jobs: The number of job openings or positions in the company.
 12. Benefits: Number of entries discussing the company's benefits.
+
+--------------------
 
