@@ -131,7 +131,7 @@ Open and execute the Jupyter Notebook 'Cluster Analysis on Indian Companies.ipyn
 
 - **Ratings vs. Reviews:** Higher-rated companies generally tend to have fewer reviews, with most clustering around a rating of 4.  
 - **Salaries vs. Reviews:** A positive correlation is evident, where companies offering higher salaries attract more reviews.  
-- **Jobs vs. Reviews and Company Age vs. Reviews:** Companies with more job openings and older company ages exhibit varying review counts, though most companies have fewer reviews regardless of these factors.
+- **Jobs vs. Reviews and Company Age vs. Reviews:** Companies with more job openings and older company ages exhibit varying review counts. However, most companies have fewer reviews regardless of these factors.
 
 ### **Results of PCA and Elbow Method**
 
@@ -146,6 +146,26 @@ The **Elbow Method** was utilized to determine the optimal number of clusters by
 </p>
 
 These results provide a meaningful dataset segmentation, enabling further insights into company characteristics and performance.
+
+### **Results of K- MEANS clustering**
+
+The **K-Means Clustering** algorithm was applied to segment companies into two distinct clusters based on the principal components derived from the dataset. The clustering revealed the following insights:
+
+- **Cluster 0 (Green):**
+  - Companies in this cluster tend to have **higher values for `reviews`, `jobs`, and `salaries`**.
+  - These companies are likely **employee-focused** with better opportunities and compensation but may not have as high `ratings` as the other cluster.
+  - Represents younger or growing firms prioritizing employee satisfaction.
+
+- **Cluster 1 (Blue):**
+  - This cluster consists of companies with **higher values for `ratings` and `company_age`**.
+  - These are likely **older, more established firms** with stable customer satisfaction metrics but relatively fewer job openings and reviews.
+  - Indicates companies focused on maintaining long-term customer relationships.
+
+<p align="center">
+  <img src="images/KMeans.png" alt="K-Means Clustering Visualization" title="K-Means Clustering Visualization" />
+</p>
+
+The **red markers** in the plot indicate the two clusters' centroids, representing the companies' average position in each group. These findings provide actionable insights into market segmentation, highlighting differences in company focus—whether on employees or customers—and aiding in strategic decision-making.
 
 
 ---------------------
