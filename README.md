@@ -185,6 +185,19 @@ The **Agglomerative Hierarchical Clustering** algorithm was applied to segment c
 
 The hierarchical nature of this algorithm enables a deeper understanding of how companies group based on their similarities. The clustering provides valuable insights into company characteristics, helping stakeholders identify trends and develop tailored strategies for different market segments.
 
+### **Summary of Clustering Results**
+
+The clustering analyses using **K-Means** and **Agglomerative Clustering** identified two distinct groups of companies, providing meaningful insights into their characteristics:
+
+- **Cluster 0 (Blue):**
+  - Represents older, established companies with higher `ratings` and `company_age`.
+  - Focuses on stability and customer satisfaction, with fewer reviews and job openings.
+
+- **Cluster 1 (Green):**
+  - Represents younger, growing companies with higher values for `reviews`, `jobs`, and `salaries`.
+  - Prioritizes employee engagement and growth opportunities.
+
+Both clustering techniques revealed consistent segmentation and a clear understanding of company profiles.
 
 ---------------------
 ## Contributions
