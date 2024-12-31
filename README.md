@@ -167,6 +167,24 @@ The **K-Means Clustering** algorithm was applied to segment companies into two d
 
 The **red markers** in the plot indicate the two clusters' centroids, representing the companies' average position in each group. These findings provide actionable insights into market segmentation, highlighting differences in company focus—whether on employees or customers—and aiding in strategic decision-making.
 
+### **Results of Agglomerative Clustering**
+
+The **Agglomerative Hierarchical Clustering** algorithm was applied to segment companies into two distinct clusters based on the principal components derived from the dataset. The results are visualized in the plot below, showcasing a clear separation between the clusters:
+
+- **Cluster 0 (Blue):**
+  - Represents companies with higher values for `ratings` and `company_age`, likely older and more established firms.
+  - These companies exhibit stability and focus on customer satisfaction, with fewer reviews and job openings.
+
+- **Cluster 1 (Green):**
+  - Includes companies with higher values for `reviews`, `jobs`, and `salaries`, focusing on employee-centric metrics.
+  - Likely to represent younger and growing firms with significant engagement from employees.
+
+<p align="center">
+  <img src="images/AgglomerativeClustering.png" alt="Agglomerative Clustering Visualization" title="Agglomerative Clustering Visualization" />
+</p>
+
+The hierarchical nature of this algorithm enables a deeper understanding of how companies group based on their similarities. The clustering provides valuable insights into company characteristics, helping stakeholders identify trends and develop tailored strategies for different market segments.
+
 
 ---------------------
 ## Contributions
