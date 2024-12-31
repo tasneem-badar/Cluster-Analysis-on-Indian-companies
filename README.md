@@ -131,7 +131,21 @@ Open and execute the Jupyter Notebook 'Cluster Analysis on Indian Companies.ipyn
 
 - **Ratings vs. Reviews:** Higher-rated companies generally tend to have fewer reviews, with most clustering around a rating of 4.  
 - **Salaries vs. Reviews:** A positive correlation is evident, where companies offering higher salaries attract more reviews.  
-- **Jobs vs. Reviews and Company Age vs. Reviews:** Companies with more job openings and older company ages exhibit varying review counts, though most companies have fewer reviews regardless of these factors.  
+- **Jobs vs. Reviews and Company Age vs. Reviews:** Companies with more job openings and older company ages exhibit varying review counts, though most companies have fewer reviews regardless of these factors.
+
+### **Results of PCA and Elbow Method**
+
+The **Principal Component Analysis (PCA)** was applied to the dataset consisting of `rating`, `reviews`, `jobs`, `salaries`, and `company_age`. PCA reduced the dimensionality to two principal components, retaining most of the variance and simplifying visualization and clustering.
+
+The **Elbow Method** was utilized to determine the optimal number of clusters by analyzing the within-cluster sum of squares (WCSS). The method identified **two optimal clusters**, which effectively group companies based on their attributes:
+- **Cluster 0:** Higher values for `reviews`, `jobs`, and `salaries`, indicating companies with better employee-related metrics.
+- **Cluster 1:** Higher values for `rating` and `company_age`, representing older and more established companies.
+
+<p align="center">
+  <img src="images/ElbowMethod.png" alt="Elbow Method Visualization" title="Elbow Method Visualization" />
+</p>
+
+These results provide a meaningful dataset segmentation, enabling further insights into company characteristics and performance.
 
 
 ---------------------
